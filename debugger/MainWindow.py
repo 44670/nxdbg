@@ -1,6 +1,6 @@
 # Copyright 2017 plutoo
-from PyQt4 import QtGui
-from PyQt4.QtCore import QThread, SIGNAL
+from PySide import QtGui
+from PySide.QtCore import QThread, SIGNAL
 
 import sys
 import time

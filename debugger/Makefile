@@ -6,7 +6,7 @@ test: all
 	python2 MainWindow.py --test
 
 mainwindow_gen.py: mainwindow.ui
-	pyuic4 $^ > $@
+	pyside-uic $^ > $@
 
 clean:
 	rm mainwindow_gen.py *.pyc

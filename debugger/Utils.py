@@ -1,5 +1,5 @@
 # Copyright 2017 plutoo
-from PyQt4 import QtGui, QtCore
+from PySide import QtGui, QtCore
 
 def requiresContinue(event):
     return (event.flags & 1) if event else False

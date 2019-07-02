@@ -1,5 +1,5 @@
 # Copyright 2017 plutoo
-from PyQt4 import QtGui
+from PySide import QtGui
 import types
 
 import ArmDisassembler
